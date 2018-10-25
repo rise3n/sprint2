@@ -1,9 +1,41 @@
 /* Add additional stylesheets below
 -------------------------------------------------- */
+#titletext {
+    border: 30px;
+    margin: 0 auto;
+    text-align: center;
+    height: 50px;
 
-.battleGrid {
-    border: 1px solid black;
-    border-spacing: 0px;
+}
+#playerboard{
+    float:left;
+    border:10px;
+    margin:10px;
+    height:50px;
+    width:100px;
+}
+#enemyboard{
+    float:right;
+    border:10px;
+    margin:10px;
+    height:50px;
+    width:100px;
+}
+
+#opponent{
+    float:right;
+    margin:0px;
+}
+#player{
+    float:left;
+    margin: 0px;
+}
+
+.shiptype{
+    width:100px;
+    height:100px;
+    margin:0 auto;
+    text-align:center;
 }
 
 .battleGrid tr {
